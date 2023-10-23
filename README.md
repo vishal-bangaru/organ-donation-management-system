@@ -21,8 +21,8 @@ Before you begin, ensure you have the following installed on your system:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/organ-donation-app.git
-    cd organ-donation-app
+    [git clone https://github.com/vishal-bangaru/organ-donation-management-system.git]
+    cd organ-donation-management-system.git
     ```
 
 2. Install dependencies:
