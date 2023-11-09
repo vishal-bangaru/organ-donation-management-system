@@ -26,7 +26,7 @@ userApp.post("/register",expressAsyncHandler(async(req,res)=>
     const userCollectionObj=req.app.get("userCollectionObj")
     const check=await userCollectionObj.findOne({username:user.username})
     if(check!=null)
-    res.status(200).send("User already unnad ra ")
+    res.status(200).send("User already existed ")
     else{
         hashedPassword=await bcryptjs.hash(user.password,5);
         user.password=hashedPassword;
